@@ -1,0 +1,49 @@
+﻿/* fond de page */
+body {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color:rgba(27,69,144,0.6);
+  color: white;
+  height: 100vh;
+  margin: 0;
+  /* pour éviter l'ascenseur */
+  border: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+
+/* bandeau de titre */
+h1 { 
+  color: rgba(245,225,28,1);
+  border: blue;
+  box-shadow: none;
+  background-color: rgba(27,69,144,0.6);
+  border-top: 5px solid rgba(255,255,255,0.6);
+  border-bottom: 5px solid rgba(255,255,255,0.6);
+  margin-top: 1em;
+  text-shadow: 3px 3px 3px black;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+/* contenu de la page */
+body > * {   padding-left: 50px; }
+h1 {   padding-left: 650px; }
+
+/* polices de caractères */
+body { font-family: Palatino Linotype, serif;
+	font-size:150% }
+h1 { font-family: Times new roman, serif;}
+
+/* positionnement des champs */
+label { display: table; }
+label span { display: table; width: 10em; height: 1.5em; }
+description {color : red}
+
+a.delete:hover {
+  color: red;
+}
+#map { height: 500px; width: 750px; }
+#description {height: 200px;width:300px
+              }
